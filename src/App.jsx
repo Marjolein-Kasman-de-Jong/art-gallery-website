@@ -1,8 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// Components
+// Pages
 import Home from "./pages/home/Home";
 import Location from "./pages/location/Location";
+
+// Sections
+import PageFooter from "./sections/page-footer/PageFooter";
 
 // Styles
 import './App.css';
@@ -16,9 +19,7 @@ function App() {
           <Route path="/location" element={<Location />} />
         </Routes>
       </main>
-      <footer>
-        footer
-      </footer>
+      <PageFooter />
     </BrowserRouter>
   )
 }
