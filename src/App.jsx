@@ -10,10 +10,15 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <main>
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/location" element={<Location />} />
-      </Routes>
+        </Routes>
+      </main>
+      <footer>
+        footer
+      </footer>
     </BrowserRouter>
   )
 }

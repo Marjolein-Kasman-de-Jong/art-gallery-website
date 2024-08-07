@@ -24,19 +24,22 @@ input {
 
 html {
   font-size: 16px;
+  font-style: normal;
 }
 
 /* --Headings */
 
+[class^="heading"] {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;  
+}
+
 .heading-1 {
   /* ----Main title */
   color: var(--black);
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 3.75rem;
-  font-style: normal;
-  font-weight: 900;
   line-height: 3.4375rem;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,12 +58,8 @@ html {
 
 .heading-2 {
   /* ----Section titles */
-  font-family: "Big Shoulders Display";
   font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 900;
   line-height: 2.8125rem;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1440px) {
@@ -81,12 +80,8 @@ html {
 .heading-3 {
   /* ----Location title */
   color: var(--accent);
-  font-family: "Big Shoulders Display";
   font-size: 2rem;
-  font-style: normal;
-  font-weight: 900;
   line-height: 2rem;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1440px) {
@@ -98,12 +93,14 @@ html {
 
 /* --Paragraphs */
 
+[class^="heading"] {
+  font-family: "Outfit", sans-serif;  
+  font-weight: 400;  
+}
+
 .paragraph-1 {
   /* ----Regular paragraphs */
-  font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.75rem;
 }
 
@@ -124,10 +121,7 @@ html {
 
 .paragraph-2 {
   /* ----Footer paragraph */
-  font-family: "Outfit", sans-serif;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.625rem;
 }
 
@@ -152,7 +146,6 @@ html {
   color: var(--white);
   font-family: "Big Shoulders Display", sans-serif;
   font-size: 1.25rem;
-  font-style: normal;
   font-weight: 800;
   line-height: normal;
   letter-spacing: 0.22725rem;
