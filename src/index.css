@@ -1,0 +1,159 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+/* Colors */
+
+:root {
+  --accent: #D5966C;
+  --black: #151515;
+  --grey: #444444;
+  --white: #FFF;
+}
+
+/* Typography */
+
+html {
+  font-size: 16px;
+}
+
+/* --Headings */
+
+.heading-1 {
+  /* ----Main title */
+  color: var(--black);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 3.4375rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+  .heading-1 {
+    font-size: 4.375rem;
+    line-height: 4.0625rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .heading-1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+}
+
+.heading-2 {
+  /* ----Section titles */
+  font-family: "Big Shoulders Display";
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.8125rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .heading-2 {
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+  }
+}
+
+.heading-2.dark {
+  color: var(--black);
+}
+
+.heading-2.light {
+  color: var(--white);
+}
+
+.heading-3 {
+  /* ----Location title */
+  color: var(--accent);
+  font-family: "Big Shoulders Display";
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .heading-3 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+  }
+}
+
+/* --Paragraphs */
+
+.paragraph-1 {
+  /* ----Regular paragraphs */
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .paragraph-1 {
+    font-size: 1.375rem;
+    line-height: 2rem;
+  }
+}
+
+.paragraph-1.dark {
+  color: var(--grey);
+}
+
+.paragraph-1.light {
+  color: var(--white);
+}
+
+.paragraph-2 {
+  /* ----Footer paragraph */
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .paragraph-2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.paragraph-2.light {
+  color: var(--white);
+}
+
+.paragraph-2.dark {
+  color: var(--black);
+}
+
+/* --Buttons */
+
+.button-1 {
+  color: var(--white);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.22725rem;
+}
