@@ -3,6 +3,6 @@ import "./location-description.css";
 
 export default function LocationDescription() {
   return (
-    <div>LocationDescription</div>
+    <section className="location-description">LocationDescription</section>
   )
 }

@@ -93,7 +93,7 @@ html {
 
 /* --Paragraphs */
 
-[class^="heading"] {
+[class^="paragraph"] {
   font-family: "Outfit", sans-serif;  
   font-weight: 400;  
 }
@@ -120,7 +120,7 @@ html {
 }
 
 .paragraph-2 {
-  /* ----Footer paragraph */
+  /* ----Page footer paragraph */
   font-size: 1rem;
   line-height: 1.625rem;
 }
@@ -149,4 +149,11 @@ html {
   font-weight: 800;
   line-height: normal;
   letter-spacing: 0.22725rem;
+}
+
+/* --Images */
+
+img {
+  width: 100%;
+  display: block;
 }
